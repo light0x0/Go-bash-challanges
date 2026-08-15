@@ -12,4 +12,3 @@ func StrRev(s string) string {
 
 	return reversed
 }
-n
