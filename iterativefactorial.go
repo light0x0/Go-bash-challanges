@@ -9,6 +9,7 @@ func IterativeFactorial(nb int) int {
 	}
 
 	total := 1
+
 	for index := 2; index <= nb; index++ {
 		total = total * index
 	}
