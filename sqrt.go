@@ -1,4 +1,4 @@
-package main
+package piscine
 
 func Sqrt(nb int) int {
 	index := 0
