@@ -10,7 +10,7 @@ func IterativePower(nb int, power int) int {
 		return 1
 	}
 
-	for index := 2; index < power+1; index++ {
+	for index := 1; index < power+1; index++ {
 		total = total * nb
 	}
 
