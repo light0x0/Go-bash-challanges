@@ -13,8 +13,6 @@ func main() {
 		if value == '/' {
 			step = index + 1
 		}
-
-		//z01.PrintRune(value)
 	}
 
 	for index := step; index < len(name); index++ {
