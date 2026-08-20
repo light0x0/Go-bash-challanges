@@ -1,4 +1,4 @@
-package piscine
+package main
 
 import (
 	"os"
@@ -11,4 +11,5 @@ func main() {
 	for _, value := range name {
 		z01.PrintRune(value)
 	}
+	z01.PrintRune('\n')
 }
