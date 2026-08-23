@@ -10,7 +10,6 @@ func SplitWhiteSpaces(s string) []string {
 				words = append(words, s[starting:index])
 			}
 			starting = index + 1
-			//words = append(words,value)
 		}
 	}
 
