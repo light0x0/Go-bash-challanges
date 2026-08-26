@@ -1,6 +1,4 @@
-package main
-
-import "fmt"
+package piscine
 
 func Join(strs []string, sep string) string {
 	str := ""
@@ -13,9 +11,4 @@ func Join(strs []string, sep string) string {
 	}
 
 	return str
-}
-
-func main() {
-	toConcat := []string{"Hello!", " How", " are", " you?"}
-	fmt.Println(Join(toConcat, "-"))
 }
