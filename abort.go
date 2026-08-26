@@ -9,8 +9,5 @@ func Abort(a, b, c, d, e int) int {
 			}
 		}
 	}
-
-	//mid := len(slice) / 2
-
 	return slice[2]
 }
