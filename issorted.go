@@ -14,7 +14,7 @@ func IsSorted(f func(a, b int) int, a []int) bool {
 	}
 
 	for index := 0; index+1 < len(a); index++ {
-		if f(a[index], a[index+1] < 0) {
+		if f(a[index], a[index+1]) < 0 {
 			big = false
 		}
 	}
