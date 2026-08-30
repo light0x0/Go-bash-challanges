@@ -1,6 +1,6 @@
 package piscine
 
-func comp(a, b int) int {
+func f(a, b int) int {
 	if a > b {
 		return 1
 	} else if a == b {
