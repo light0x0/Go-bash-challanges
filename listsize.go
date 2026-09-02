@@ -1,24 +1,13 @@
-// Empty file
 package piscine
 
+func ListSize(l *List) int {
+	current := l.Head
+	count := 0
 
-type NodeLx struct {
-	Data interface{}
-	Next *NodeLx
-}
+	for current != nil {
+		count += 1
+		current = current.Next
 
-type Listx struct {
-	Head *NodeLx
-	Tail *NodeLx
-}
-
-func ListSize(l *Listx) int {
-  count := 0
-  now := l.Head
-  for now != nil{
-    count++
-    now = now.Next
-  }
-  
-  return count
+	}
+	return count
 }
