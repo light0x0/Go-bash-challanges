@@ -1,5 +1,7 @@
 package piscine
 
+import "fmt"
+
 func PrintElem(node *NodeL) {
 	fmt.Println(node.Data)
 }
