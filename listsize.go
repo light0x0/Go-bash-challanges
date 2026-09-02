@@ -9,6 +9,6 @@ func ListSize(l *List) int {
 		current = current.Next
 
 	}
-    //testtest
+	// testtest
 	return count
 }
